@@ -1,0 +1,8 @@
+---
+
+- ansible.builtin.include_role:
+    name: alex.linuxadmin.installansible
+
+- ansible.builtin.include_role:
+    name: alex.linuxadmin.installetcher
+
